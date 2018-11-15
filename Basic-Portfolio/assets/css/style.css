@@ -43,6 +43,7 @@ h1 {
     z-index: 1;
     bottom: 90px;
     right: 250px;
+    border-style: outset;
 }
 
 h2 {
@@ -61,11 +62,12 @@ h2 {
 footer {
     text-align: center;
     color: white;
-    margin: 0 auto;
     background: #666666;
     border-top: 10px solid #4aaaa5;
     padding: 20px;
     margin-bottom: 0;
+    margin: auto 0;
+
 }
 
 img {
