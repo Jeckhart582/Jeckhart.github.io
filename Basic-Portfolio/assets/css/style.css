@@ -13,10 +13,11 @@ h1 {
     padding: 20px;
     z-index: 2;
     height: 80px;
-    margin: 0 auto;
     border-style: outset;
     color: white;
     width: 250px;
+    margin: 0px;
+    left: 255px;
 
 }
 
@@ -30,19 +31,22 @@ h1 {
     background: #ffffff;
     padding: 30px;
     border-style: outset;
+    position: relative;
+    bottom: 60px;
 }
 
 .Links {
     position: relative;
     padding: 20px;
-    margin: 0 auto;
     background: white;
     text-align: right;
     z-index: 1;
     bottom: 90px;
+    right: 250px;
 }
 
 h2 {
+    position: relative;
     width: 960px;
     margin: 0 auto;
     background: white;
@@ -51,6 +55,7 @@ h2 {
     color: #4aaaa5;
     border-style: outset;
     border-bottom: 5px solid black;
+    bottom: 60px;
 }
 
 footer {
