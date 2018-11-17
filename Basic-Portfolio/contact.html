@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
 
     <head>
@@ -7,42 +7,37 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
-    <h1> Jason Eckhart </h1>
+<h1> Jason Eckhart </h1>
 
     <div class="Links">
         <ul>
-          About
-          Portfolio
-          Contact
+            <a href="gallery.html" id="Gallery"> Gallery</a>
+            <a href="portfolio.html" id="Portfolio"> Portfolio</a>
+            <a href="contact.html" id="Contact"> Contact</a>
         </ul>
     </div>
 
-    <h2> Contact</h2>
+<h2> Contact</h2>
         
-    <div id="Contact">
+    <div class="Content">
+        
+        <body>   
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="lastname" placeholder="Your email...">
             
-        <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="email">Email Address</label>
-            <input type="text" id="email" name="lastname" placeholder="Your email...">
-            <label for="message"> Message</label>
-            <input type="text" id="message" name="message" placeholder="Type here...">
-        </form>
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="Type here...">
+            </form>
+        </body>   
 
     </div>
 
 
     <footer> Copywrite JE </footer>
-
-
-
-
-
-
-
-
 
 
 </html>
